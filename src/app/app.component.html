@@ -20,6 +20,13 @@
     <h2><a rel="noopener" routerLink="/product-list" routerLinkActive="active">Products List</a></h2>
   </li> -->
 </ul>
-
+<ul>
+  <li>
+    <a [routerLink]="['/cart']">checkout (cart page)</a>
+  </li>
+  <li>
+    <a [routerLink]="['/shipping']">Shipping Prices</a>
+  </li>
+</ul>
 <app-product-list></app-product-list>
 <router-outlet></router-outlet>
